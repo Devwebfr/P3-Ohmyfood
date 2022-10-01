@@ -1,0 +1,130 @@
+.acc h1 {
+  padding-top: clamp(10px, 1%, 60px);
+}
+
+.concept h1 {
+  padding: 0 4%;
+}
+.concept div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.concept__step {
+  margin: auto 0 0 2%;
+  padding: clamp(5px, 3%, 20px) 0;
+  border-radius: 25px;
+}
+.concept__step__text {
+  padding: clamp(5px, 0.5vw, 15px);
+  padding-right: 3vw;
+  font-size: clamp(9px, 2vw, 26px);
+}
+.concept__step__text i {
+  padding-right: 1vw;
+  padding-left: 3vw;
+}
+.concept__step__circle {
+  display: inline-block;
+  background-color: #9356DC;
+  width: clamp(18px, 4vw, 45px);
+  height: clamp(18px, 4vw, 45px);
+  border-radius: 50%;
+  line-height: 45px;
+  color: white;
+  padding: 0;
+}
+
+.store__layout {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+}
+
+.card .material-symbols-outlined {
+  font-size: 4vw;
+}
+.card h3 {
+  padding-top: 0.5vw;
+}
+.card__img {
+  height: 15vw;
+  width: 100%;
+  max-height: 216px;
+}
+.card__tag {
+  margin-top: 2vw;
+  margin-left: 3vw;
+  height: 3vw;
+  width: 10vw;
+  font-size: 2vw;
+  line-height: 3vw;
+}
+
+footer {
+  padding-left: 0;
+  padding-bottom: 2%;
+  width: 100vw;
+}
+footer .i-margin {
+  margin-right: 12px;
+  margin-left: 3vw;
+}
+footer div {
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80vw;
+}
+footer i {
+  font-size: unset;
+  margin-right: 10px;
+}
+footer img {
+  margin: 2vw 4vw 1vw 4vw;
+  width: 18vw;
+  padding: 0;
+}
+footer a {
+  line-height: 2;
+  padding: 0 1.4vw;
+}
+
+@media (min-width: 1800px) {
+  h1 {
+    font-size: clamp(9px, 5.5vw, 50px);
+  }
+  h2 {
+    font-size: clamp(9px, 5vw, 48px);
+  }
+  h3 {
+    font-size: clamp(9px, 5vw, 46px);
+  }
+  span, a, input, .form__plc {
+    font-size: clamp(9px, 5vw, 46px);
+  }
+  .concept__step__text {
+    font-size: clamp(9px, 2vw, 46px);
+  }
+  header img {
+    width: unset;
+  }
+  .acc h2 {
+    margin: 0 auto 1% auto;
+  }
+  .card h3 {
+    padding-top: 1vw;
+  }
+  .card__img {
+    max-height: none;
+  }
+  .form {
+    max-width: 450px;
+  }
+  .form i {
+    font-size: clamp(9px, 5vw, 56px);
+  }
+  .concept__step__circle {
+    width: clamp(18px, 4vw, 65px);
+    height: clamp(18px, 4vw, 65px);
+    line-height: 60px;
+  }
+}/*# sourceMappingURL=home-desktop.css.map */

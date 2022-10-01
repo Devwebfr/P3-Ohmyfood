@@ -1,0 +1,147 @@
+h1 {
+  font-size: 3vw;
+}
+
+h2 {
+  font-size: clamp(9px, 2vw, 16px);
+}
+
+h3 {
+  font-size: clamp(9px, 2vw, 16px);
+}
+
+span {
+  font-size: clamp(9px, 2vw, 16px);
+}
+
+a {
+  font-size: 1.4vw;
+}
+
+header img {
+  width: 20vw;
+  padding: 2% 0 1% 0;
+}
+
+header .btn-back {
+  font-size: 3.5vw;
+  margin-top: 1.8%;
+}
+
+.img-resto {
+  height: 50vh;
+}
+
+.bg {
+  margin-top: -10em;
+  border-top-left-radius: 5vw;
+  border-top-right-radius: 5vw;
+}
+
+.title__heart {
+  font-size: 5vw;
+}
+
+.dishes__tab:hover .dishes__tab__anim {
+  width: 10vw;
+  transition: 0.8s;
+  margin-left: 0.5vw;
+}
+
+.dishes {
+  flex-direction: column;
+}
+.dishes__tab {
+  border-radius: 2.5vw;
+  align-items: center;
+  margin-bottom: 2vw;
+  border-radius: 2vw;
+  padding: 3% 3% 3% 3%;
+}
+.dishes__tab__title {
+  min-width: 0;
+}
+.dishes__tab__anim {
+  margin-right: -5vw;
+}
+.dishes__tab__anim__circle {
+  color: white;
+  line-height: 7.2vw;
+  font-size: 3vw;
+  transform: rotate(90deg);
+  margin-right: 2vw;
+}
+.dishes__tab__price {
+  margin-top: 2.1vw;
+  font-size: 1.3vw;
+  padding-left: 2vw;
+}
+.dishes .title-border {
+  width: 3vw;
+  margin-bottom: 4vw;
+  margin-left: 0.4vw;
+}
+.dishes h2 {
+  font-size: 2vw;
+}
+.dishes h3 {
+  font-size: 1.5vw;
+  width: unset;
+}
+.dishes span {
+  font-size: 1.5vw;
+}
+
+.dishes__tab:hover .dishes__tab__anim {
+  width: 10vw;
+  transition: 0.8s;
+  margin-left: 0.5vw;
+}
+
+.btn {
+  font-size: 1.4vw;
+  padding: 3% 12%;
+}
+
+.btn__div {
+  padding: 3% 0 8% 0;
+}
+
+.marge {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0;
+}
+.marge section {
+  width: 30%;
+}
+
+footer {
+  padding-left: 0;
+  padding-bottom: 2%;
+  width: 100vw;
+}
+footer .i-margin {
+  margin-right: 12px;
+  margin-left: 3vw;
+}
+footer div {
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80vw;
+  line-height: 2vw;
+}
+footer i {
+  font-size: unset;
+  margin-right: 10px;
+}
+footer img {
+  margin: 2vw 4vw 1vw 4vw;
+  width: 18vw;
+  padding: 0;
+}
+footer a {
+  line-height: 2;
+  padding: 0 1.4vw;
+}/*# sourceMappingURL=menu-desktop.css.map */

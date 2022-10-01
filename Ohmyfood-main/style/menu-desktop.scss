@@ -1,0 +1,161 @@
+// Fonts-size
+h1 {font-size: 3vw;}
+h2 {font-size: clamp(9px, 2vw, 16px);}
+h3 {font-size: clamp(9px, 2vw, 16px);}
+span {font-size: clamp(9px, 2vw, 16px);}
+a {font-size: 1.4vw;}
+
+
+// Header
+header {
+    img {
+        width: 20vw;
+        padding: 2% 0 1% 0;
+    }
+}
+
+header .btn-back {
+    font-size: 3.5vw;
+    margin-top: 1.8%;
+}
+
+// Image
+.img-resto {
+    height: 50vh;
+}
+
+
+// Background
+.bg {
+    margin-top: -10em;
+    border-top-left-radius: 5vw;
+    border-top-right-radius: 5vw;
+}
+
+// Title heart
+.title__heart {
+    font-size: 5vw;
+}
+
+
+.dishes__tab:hover .dishes__tab__anim {
+    width: 10vw;
+    transition: 0.8s;
+    margin-left: 0.5vw;
+}
+
+// Dishes
+.dishes {
+    flex-direction: column;
+
+    &__tab {
+        border-radius: 2.5vw;
+        align-items: center;
+        margin-bottom: 2vw;
+        border-radius: 2vw;
+        padding: 3% 3% 3% 3%;
+
+        &__title {
+            min-width: 0;
+        }
+
+        &__anim {
+            
+            margin-right: -5vw;
+    
+            &__circle {
+                color: white;
+                line-height: 7.2vw;
+                font-size: 3vw;
+                transform: rotate(90deg);
+                margin-right: 2vw;
+            }
+        }
+        &__price {
+            margin-top: 2.1vw;
+            font-size: 1.3vw;
+            padding-left: 2vw;
+        }
+    }
+
+    .title-border {
+        width: 3vw;
+        margin-bottom: 4vw;
+        margin-left: 0.4vw;
+    }
+    h2 {
+        font-size: 2vw;
+    }
+    h3 {
+        font-size: 1.5vw;
+        width: unset;
+    }
+    span {
+        font-size: 1.5vw;
+    }
+}
+
+.dishes__tab:hover .dishes__tab__anim {
+    width: 10vw;
+    transition: 0.8s;
+    margin-left: 0.5vw;
+}
+
+
+
+// Button
+.btn {
+    font-size: 1.4vw;
+    padding: 3% 12%;
+}
+
+.btn__div {
+    padding: 3% 0 8% 0;
+}
+
+.marge {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0;
+
+    section {
+        width: 30%;
+    }
+}
+
+// Footer
+footer {
+
+    padding-left: 0;
+    padding-bottom: 2%;
+    width: 100vw;
+
+    .i-margin {
+        margin-right: 12px;
+        margin-left: 3vw;
+    }
+
+    div {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80vw;
+        line-height: 2vw;
+    }
+
+    i {
+        font-size: unset;
+        margin-right: 10px;
+    }
+
+    img {
+        margin: 2vw 4vw 1vw 4vw;
+        width: 18vw;
+        padding: 0;
+    }
+
+    a {
+        line-height: 2;
+        padding: 0 1.4vw;
+    }
+}
